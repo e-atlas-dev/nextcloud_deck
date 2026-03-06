@@ -1,0 +1,126 @@
+# Build output
+build/
+*.symbols
+
+# Dart tool cache
+.dart_tool/
+
+# Flutter plugin lists (auto-generated on flutter pub get)
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Generated localisation Dart files
+# ARB source files (lib/l10n/app_*.arb) are committed - only the generated Dart is ignored
+lib/l10n/app_localizations*.dart
+
+# Pub cache
+.pub-cache/
+.pub/
+.packages
+
+# Coverage reports
+coverage/
+
+# Gradle caches and wrapper binaries
+android/.gradle/
+android/gradle/
+android/gradlew
+android/gradlew.bat
+
+# Local machine config (SDK path etc.)
+android/local.properties
+
+# !! SECURITY: signing config - NEVER commit these !!
+android/key.properties
+*.jks
+*.keystore
+
+# Android Studio / IntelliJ project files
+android/.idea/
+android/**/*.iml
+
+# Generated plugin registration
+**/GeneratedPluginRegistrant.java
+
+# CocoaPods - Pods dir is large and fully reproducible from Podfile
+ios/Pods/
+ios/.symlinks/
+ios/Podfile.lock
+
+# Flutter-generated iOS files
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/Flutter/engine/
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/Generated.xcconfig
+ios/.flutter-plugins
+ios/.flutter-plugins-dependencies
+
+# Xcode user data (per-developer, not project-wide)
+ios/**/*.xcworkspace/xcuserdata/
+ios/**/xcuserdata/
+DerivedData/
+
+# Generated plugin registration
+ios/Runner/GeneratedPluginRegistrant.*
+
+# !! SECURITY: provisioning profiles and API keys - NEVER commit these !!
+*.mobileprovision
+*.p12
+ios/Runner/GoogleService-Info.plist
+
+# macOS
+macos/Pods/
+macos/.symlinks/
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+
+# Secrets - the most important section
+.env
+.env.*
+*.env
+secrets.dart
+**/secrets/
+google-services.json
+GoogleService-Info.plist
+
+# VS Code (keep extensions.json so teammates get recommended extensions)
+.vscode/*
+!.vscode/extensions.json
+
+# JetBrains / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+.fleet/
+
+# Xcode
+*.xcodeproj/xcuserdata/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.moved-aside
+
+# OS artefacts
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Misc
+*.tmp
+*.swp
+*~
+*.dmp
+test-results/
